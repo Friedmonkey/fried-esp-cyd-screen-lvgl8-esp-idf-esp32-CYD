@@ -70,7 +70,7 @@ static void process_coordinates(esp_lcd_touch_handle_t tp, uint16_t *x, uint16_t
 
 
 
-esp_err_t touch_init(esp_lcd_touch_handle_t *tp)
+esp_err_t fried_touch_init(esp_lcd_touch_handle_t *tp)
 {
     esp_lcd_panel_io_handle_t tp_io_handle = NULL;
 

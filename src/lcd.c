@@ -62,7 +62,7 @@ esp_err_t lcd_display_brightness_set(int brightness_percent)
         brightness_percent = 0;
     }
 
-    ESP_LOGI(TAG, "Setting LCD backlight: %d%%", brightness_percent);
+    //ESP_LOGI(TAG, "Setting LCD backlight: %d%%", brightness_percent);
 
     uint32_t duty_cycle = (1023 * brightness_percent) / 100;
 

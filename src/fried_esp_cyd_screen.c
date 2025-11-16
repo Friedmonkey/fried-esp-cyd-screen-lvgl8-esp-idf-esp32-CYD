@@ -44,7 +44,7 @@ void fs_init(void)
     }
 
     ESP_LOGI(TAG, "Init Touch");
-    ESP_ERROR_CHECK(touch_init(&s_touch));
+    ESP_ERROR_CHECK(fried_touch_init(&s_touch));
 
     lvgl_port_touch_cfg_t tc = {
         .disp   = s_lvgl_display,
