@@ -1,0 +1,19 @@
+to make it work
+do:
+idf.py menuconfig 
+and then 
+XPT2046
+and make sure
+"Convert touch coordinates to screen coordinates"
+is DISABLED/OFF
+
+press s to save
+and then try again!!!
+
+
+next up if the color looks weird change lvgl configuration
+and enable/disable swap color bytes
+
+
+
+if u cant find it perhaps im skitzophrenic and it works without that option just try it
